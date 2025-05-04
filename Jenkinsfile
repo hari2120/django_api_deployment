@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Replace with your actual Git repository URL
-                // git 'https://github.com/yourusername/django-api-demo.git' 
+                git 'https://github.com/hari2120/django_api_deployment.git' 
                 echo 'Checking out code from SCM (replace with actual git step)'
             }
         }

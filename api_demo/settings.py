@@ -127,5 +127,6 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+
 # Accessing the environment variable (optional here, primarily used in views)
 MY_TEST_ENV = os.getenv('MY_TEST_ENV', 'default_value')
